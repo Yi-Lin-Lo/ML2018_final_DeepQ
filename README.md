@@ -20,9 +20,7 @@ sklearn==0.0
 pandas==0.23.4
 ```
 
-## How to run test.sh
-#### Step1.
-下載所需套件
+## 安裝所需套件
 
 ```bash
 pip install -r requirement.txt
