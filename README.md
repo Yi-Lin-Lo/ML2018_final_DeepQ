@@ -94,7 +94,7 @@ bash ensemble.sh
 ```
 這個指令會先創建ensemble_ans這個資料夾，
 
-同時指令會用不同的權重將single_ans資料夾裡的答案加權平均，總共用十種不同的權重排列組合，
+之後指令會用不同的權重將single_ans資料夾裡的答案加權平均，總共用十種不同的權重排列組合，
 
 會在生成ensemble_1.csv to ensemble_10.csv十個答案至ensemble_ans這個資料夾。
 
