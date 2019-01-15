@@ -31,7 +31,7 @@ pip install -r requirement.txt
 
 ## How to reproduce result
 
-#### Step1. 執行 train.sh
+### Step1. 執行 train.sh
 train.sh 會先在當前目錄創建名為'model'的資料夾，並且訓練模型(model_1.h5~ model_13.h5)存到該資料夾中。
 
 train.sh 需要兩個參數 [image_dir_path] 和 [train.csv]。
