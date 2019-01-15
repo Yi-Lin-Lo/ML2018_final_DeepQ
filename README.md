@@ -58,7 +58,7 @@ bash train.sh ../final/images ../final/train.csv
 
 如果都有被生出來請忽略以下指令。
 
-如果其中一個沒被生出來，請幫我手動輸入以下指令:
+如果其中一個沒被生出來，請幫我手動輸入以下指令(注意您的影像、train.csv路徑可能與以下不同):
 
 ```bash
 python3 train_3.py ../final/images ../final/train.csv model_3.h5
