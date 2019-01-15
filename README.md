@@ -94,10 +94,19 @@ bash ensemble.sh
 ```
 這個指令會先創建ensemble_ans這個資料夾，
 
+同時指令會用不同的權重將single_ans資料夾裡的答案加權平均，總共用十種不同的權重排列組合，
 
-同時指令會用不同的權重將single_ans裡的答案加權平均，總共用十種不同的權重排列組合，
+會在生成ensemble_1.csv to ensemble_10.csv十個答案至ensemble_ans這個資料夾。
 
-會在生成ensemble_1.csv to ensemble_10.csv十個答案。
+如果您方便的話也可以先把single_ans裡的答案先丟到kaggle上看分數，並且把分數過低的答案暫時從single_ans 移開，再執行此指令一次。
+
+
+### Step4. 上傳答案
+
+將ensemble_ans資料夾裡的 ensemble_1.csv to ensemble_10.csv 共10個答案上傳kaggle。
+
+
+
 
 
 
