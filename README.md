@@ -40,7 +40,9 @@ train.sh 需要兩個參數 [image_dir_path] 和 [train.csv]。
 [train.csv] : htc 提供的train.csv路徑。
 
 用法 bash train.sh [image_dir_path] [train.csv]
+
 例如:
+
 ```bash
 bash train.sh ../final/images ../final/train.csv
 ```
