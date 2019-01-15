@@ -49,3 +49,5 @@ Usage: bash train.sh [image_dir_path] [train.csv]
 ```bash
 bash train.sh ../final/images ../final/train.csv
 ```
+
+用 Geforce 1080Ti 大約要跑12小時，請耐心等候。
