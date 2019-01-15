@@ -27,3 +27,10 @@ pip install -r requirement.txt
 ```
 
 ## How to run train.sh
+
+Usage: bash train.sh [image_dir_path] [train.csv]
+例如:
+
+```bash
+bash train.sh ../final/images ../final/train.csv
+```
