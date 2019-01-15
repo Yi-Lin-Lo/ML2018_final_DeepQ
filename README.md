@@ -65,6 +65,6 @@ python3 train_3.py ../final/images ../final/train.csv model_3.h5
 或
 python3 train_3.py ../final/images ../final/train.csv model_4.h5
 
-(model_3.h5 和 model_4.h5 都是同一個 train.py 生的)
+(model_3.h5 和 model_4.h5 都是同一個 train_.py 生的)
 ```
 
