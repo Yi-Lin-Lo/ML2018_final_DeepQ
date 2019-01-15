@@ -2,6 +2,7 @@ ML2018 - Final Small Data Training for Medical Images
 =============
 <p align="right">組名: 泱泱溫妮琳妲凡凡千千提莫</p>
 
+## Requirement
 ```bash
 tensorflow-gpu==1.10.0
 Keras==2.1.6
