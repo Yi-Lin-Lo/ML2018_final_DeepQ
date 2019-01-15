@@ -26,4 +26,4 @@ pandas==0.23.4
 pip install -r requirement.txt
 ```
 
-## How to run .sh
+## How to run train.sh
