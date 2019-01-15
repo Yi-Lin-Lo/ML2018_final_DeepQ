@@ -81,6 +81,7 @@ bash test.sh ../final/images ../final/test.csv
 
 此指令會讀入 'model' 資料夾裡的13個model (model_1.h5~ model_13.h5)，並輸出各自的答案到"single_ans"資料夾(會由script 自動產生)，共生成13個答案(ans_1.csv ans_13.csv)。
 
+*如果遇到 Memory Error，test_ten_crop_299.py的第81行 gen = load_data_from_file(test_csv_path, 500) 的 500 調小 *
 用 Geforce 1080Ti 大約要跑10小時，請耐心等候。
 (還有下一步喔)
 
