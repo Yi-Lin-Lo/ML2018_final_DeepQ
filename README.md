@@ -51,3 +51,20 @@ bash train.sh ../final/images ../final/train.csv
 ```
 
 用 Geforce 1080Ti 大約要跑12小時，請耐心等候。
+
+跑完後，可以去"model"資料夾中檢查是否有13個 model (model_1.h5~ model_13.h5)
+
+其中兩個model_3.h5 和model_4.h5 可能不會被生出來，因為我有設定epoch大於8 且loss、auroc超過門檻值才能被生出來。
+
+如果都有被生出來請忽略以下指令。
+
+如果其中一個沒被生出來，請幫我手動輸入以下指令:
+
+```bash
+python3 train_3.py ../final/images ../final/train.csv model_3.h5
+或
+python3 train_3.py ../final/images ../final/train.csv model_4.h5
+
+(model_3.h5 和 model_4.h5 都是同一個 train.py 生的)
+```
+
