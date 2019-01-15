@@ -25,3 +25,5 @@ pandas==0.23.4
 ```bash
 pip install -r requirement.txt
 ```
+
+## How to run .sh
