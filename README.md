@@ -35,11 +35,13 @@ pip install -r requirement.txt
 train.sh 會先在當前目錄創建名為'model'的資料夾，並且訓練模型(model_1.h5~ model_13.h5)存到該資料夾中
 train.sh 需要兩個參數 [image_dir_path] 和 [train.csv]。
 
+```bash
+Usage: bash train.sh [image_dir_path] [train.csv]
+
 [image_dir_path] : Chest X-Ray Dataset資料夾的路徑。
-
 [train.csv] : htc 提供的train.csv路徑。
+```
 
-用法 bash train.sh [image_dir_path] [train.csv]
 
 例如:
 
