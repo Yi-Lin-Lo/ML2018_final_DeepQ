@@ -79,7 +79,7 @@ python3 train_3.py ../final/images ../final/train.csv model_4.h5
 bash test.sh ../final/images ../final/test.csv
 ```
 
-此指令會讀入 'model' 資料夾裡的13個model (model_1.h5~ model_13.h5)，並輸出各自的答案到"single_ans"資料夾(會由script 自動產生)，共生成13個答案(ans_1.csv ans_13.csv)。
+此指令會讀入 'model' 資料夾裡的13個model (model_1.h5~ model_13.h5)，並輸出各自的答案到"single_ans"資料夾(會由script 自動產生)，共生成13個答案(ans_1.csv to ans_13.csv)。
 
 ```bash
 如果遇到 Memory Error (如果沒有請忽略)，
