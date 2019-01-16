@@ -94,7 +94,7 @@ gen = load_data_from_file(test_csv_path, 800) 的 800 調小
 
 ### Step3. 執行 ensemble.sh
 
-最後一步很簡單，請確認 single_ans 有13個答案(ans_1.csv to ans_13.csv)。
+最後一步很簡單，請確認 single_ans 資料夾中有13個答案(ans_1.csv to ans_13.csv)。
 
 ```bash
 bash ensemble.sh
